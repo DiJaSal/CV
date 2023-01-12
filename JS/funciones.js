@@ -20,12 +20,12 @@ function mostrar(elements, boton) {
         for (let i = 0; i < elements.length; i++) {
             elements[i].style.display = "block"
         }
-        document.getElementById(boton).style.filter= "brightness(80%)";
+
     } else {
         document.getElementById(boton).textContent = "mostrar Detalles"
         for (let i = 0; i < elements.length; i++) {
             elements[i].style.display = "none";
         }
-        document.getElementById(boton).style.filter= "brightness(100%)";
     }
+
 }
