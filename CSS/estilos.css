@@ -1,0 +1,114 @@
+body {
+    padding-top: 80px;
+    font-family: 'Comic Neue', cursive;
+    background-color: rgba(240, 240, 240);
+    width: 70%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(240, 240, 240, 0.5), rgba(82, 82, 255, 0.5));
+}
+
+header {
+    display: block;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(240, 240, 240);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(240, 240, 240, 0.5));
+    color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 5px solid blue;
+}
+
+header a {
+    font-family: 'Roboto', 'Times New Roman', sans-serif;
+    color: black;
+    font-size: medium;
+    padding: 5px;
+}
+
+.ancla:before {
+    display: block;
+    content: " ";
+    height: 80px;
+    visibility: hidden;
+}
+
+.ancla {
+    background-color: rgba(240, 240, 240);
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#encabezado {
+    font-style: italic;
+    font-family: 'Abril Fatface', cursive;
+    color: darkblue;
+    text-align: center;
+    margin: 5px;
+}
+
+#datos-personales {
+    border: 5px solid blue;
+    text-align: center;
+    font-size: 26px;
+    font-style: oblique;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+#habilidades-educacion {
+    border: 5px solid green;
+    margin-bottom: 10px;
+}
+
+#experiencia-laboral {
+    border: 5px solid mediumorchid;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-decoration: underline black;
+}
+
+.detalleLista {
+    display: none;
+    list-style: none;
+    text-indent: -1px;
+    list-style-position: inside;
+}
+
+.idioma-con-detalle {
+    display: none;
+}
+
+.detallecurso {
+    display: none;
+}
+
+#lista_id {
+    list-style: circle;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+button {
+    border-radius: 16px;
+    background-color: rgb(180, 248, 192);
+    color: darkgreen;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 14px;
+    margin: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#foto {
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+}
